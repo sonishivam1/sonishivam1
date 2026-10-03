@@ -37,7 +37,7 @@ const shivam: Developer = {
   name:    "Shivam Soni",
   role:    "Full-Stack Engineer",
   company: "@CustomerSAX / Royal Cyber",
-  location: "Remote 🏠",
+  location: "Prayagraj, India 🇮🇳",
 
   building: [
     "Royal Cyber CSA — Customer Service Accelerator",
