@@ -21,8 +21,7 @@
   <a href="https://github.com/sonishivam1" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>&nbsp;
-  <img src="https://img.shields.io/badge/Royal%20Cyber-6D4CFF?style=for-the-badge&logo=lightning&logoColor=white" alt="Company"/>&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=sonishivam1&label=Profile+Views&color=9B88FF&style=for-the-badge" alt="Profile views"/>
+  <img src="https://img.shields.io/badge/Royal%20Cyber-6D4CFF?style=for-the-badge&logo=lightning&logoColor=white" alt="Company"/>
 </p>
 
 <br/>
@@ -52,8 +51,8 @@ const shivam: Developer = {
 
   stack: {
     frontend:  ["Next.js 14", "React", "TypeScript", "TailwindCSS"],
-    backend:   ["Node.js", "tRPC", "REST / GraphQL"],
-    commerce:  ["commercetools", "Shopify Plus", "BigCommerce", "Adobe Commerce"],
+    backend:   ["Node.js", "REST", "GraphQL"],
+    commerce:  ["commercetools", "Shopify Plus", "BigCommerce"],
     ai:        ["Claude API", "LLM Agents", "Autonomous Workflows"],
     infra:     ["Vercel Edge", "Docker", "PostgreSQL", "Redis"],
   },

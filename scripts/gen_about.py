@@ -31,8 +31,8 @@ def text_w(s, size, weight=1.0):
 
 STACK = [
     ("Frontend", "#B4A2FF", ["Next.js 14", "React", "TypeScript", "TailwindCSS"]),
-    ("Backend", "#7CB8FF", ["Node.js", "tRPC", "REST", "GraphQL"]),
-    ("Commerce", "#F59ACB", ["commercetools", "Shopify Plus", "BigCommerce", "Adobe Commerce"]),
+    ("Backend", "#7CB8FF", ["Node.js", "REST", "GraphQL"]),
+    ("Commerce", "#F59ACB", ["commercetools", "Shopify Plus", "BigCommerce"]),
     ("AI", "#6EE7B7", ["Claude API", "LLM Agents", "Autonomous Workflows"]),
     ("Infra", "#FCD38A", ["Vercel Edge", "Docker", "PostgreSQL", "Redis"]),
 ]
@@ -77,15 +77,20 @@ lx = PAD + 26
 left = []
 ly = 70
 left.append(f'<text x="{lx}" y="{ly}" class="eyebrow">ABOUT ME</text>')
-ly += 46
-left.append(f'<text x="{lx}" y="{ly}" class="name">Shivam Soni</text>')
-ly += 30
-left.append(f'<text x="{lx}" y="{ly}" class="role">Full-Stack Engineer <tspan class="sep">/</tspan> Royal Cyber</text>')
-ly += 28
-# location pin + live dot
+ly += 40
+left.append(f'<text x="{lx}" y="{ly}" class="name">I build platforms that</text>')
+ly += 32
+left.append(f'<text x="{lx}" y="{ly}" class="name">connect commerce and AI.</text>')
+ly += 32
 left.append(
     f'<g transform="translate({lx},{ly - 12})"><path d="M6 0C2.7 0 0 2.6 0 5.9 0 10.3 6 15 6 15s6-4.7 6-9.1C12 2.6 9.3 0 6 0zm0 8.2a2.3 2.3 0 1 1 0-4.6 2.3 2.3 0 0 1 0 4.6z" fill="#9B88FF"/></g>'
     f'<text x="{lx + 20}" y="{ly}" class="meta">Prayagraj, India</text>'
+)
+bx = lx + 20 + text_w("Prayagraj, India", 13.5) + 22
+left.append(
+    f'<g transform="translate({bx:.1f},{ly - 12})"><rect x="0" y="3" width="14" height="10" rx="2" fill="none" stroke="#9B88FF" stroke-width="1.6"/>'
+    f'<path d="M4.5 3V1.5h5V3" fill="none" stroke="#9B88FF" stroke-width="1.6"/></g>'
+    f'<text x="{bx + 22:.1f}" y="{ly}" class="meta">Royal Cyber</text>'
 )
 ly += 30
 left.append(f'<line x1="{lx}" y1="{ly}" x2="{SPLIT - 10}" y2="{ly}" class="rule"/>')
@@ -119,7 +124,7 @@ H = int(max(left_end, right_end) + 52)
 css = f"""
 .eyebrow{{font:700 11.5px {FONT};letter-spacing:2.6px;fill:#9B88FF}}
 .label{{font:700 10.5px {FONT};letter-spacing:1.8px}}
-.name{{font:800 36px {FONT};fill:url(#nameGrad);letter-spacing:-0.5px}}
+.name{{font:800 25px {FONT};fill:url(#nameGrad);letter-spacing:-0.3px}}
 .role{{font:600 15px {FONT};fill:#E4DEFF}}
 .sep{{fill:#6D4CFF}}
 .meta{{font:500 13.5px {FONT};fill:#A8A3C7}}
