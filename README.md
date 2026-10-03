@@ -37,7 +37,7 @@ const shivam: Developer = {
   name:    "Shivam Soni",
   role:    "Full-Stack Engineer",
   company: "@CustomerSAX / Royal Cyber",
-  location: "Prayagraj, India 🇮🇳",
+  location: "Prayagraj, India",
 
   building: [
     "Royal Cyber CSA — Customer Service Accelerator",
@@ -53,7 +53,7 @@ const shivam: Developer = {
     infra:     ["Vercel Edge", "Docker", "PostgreSQL", "Redis"],
   },
 
-  currentFocus: "Unifying commerce, CRM, OMS & ERP into one intelligent workspace 🔮",
+  currentFocus: "Unifying commerce, CRM, OMS & ERP into one intelligent workspace",
   contact:      "linkedin.com/in/shivam-sonii",
 };
 ```
