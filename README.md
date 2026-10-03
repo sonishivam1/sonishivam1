@@ -69,21 +69,10 @@ const shivam: Developer = {
 
 ---
 
-<!-- ░░ STATS ░░ -->
-<h2 align="center">📊 GitHub Stats</h2>
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=sonishivam1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&bg_color=0D1117&border_color=6D4CFF&title_color=9B88FF&icon_color=6D4CFF&text_color=DDD6FE&ring_color=9B88FF&hide_border=false"/>
-  &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sonishivam1&layout=compact&langs_count=8&theme=tokyonight&bg_color=0D1117&border_color=6D4CFF&title_color=9B88FF&text_color=DDD6FE&hide_border=false"/>
-</div>
-
-<br/>
-
-<!-- STREAK STATS -->
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=sonishivam1&theme=transparent&background=0D1117&border=6D4CFF&stroke=6D4CFF&ring=9B88FF&fire=EC4899&currStreakLabel=9B88FF&sideLabels=9B88FF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280&excludeDaysLabel=6B7280" alt="GitHub Streak" />
-</div>
+<!-- ░░ STATS — LIQUID GLASS CARD (regenerated daily by .github/workflows/stats.yml) ░░ -->
+<p align="center">
+  <img width="100%" src="./assets/stats.svg" alt="GitHub stats: contributions, streaks, contribution calendar and top languages for the last 12 months"/>
+</p>
 
 <br/>
 
@@ -114,16 +103,6 @@ const shivam: Developer = {
 
 ---
 
-<!-- ░░ ACTIVITY GRAPH ░░ -->
-<h2 align="center">📈 Contribution Activity</h2>
-
-<p align="center">
-  <img width="100%" src="https://ghchart.rshah.org/6D4CFF/sonishivam1" alt="Contribution chart"/>
-</p>
-
-<br/>
-
----
 
 <!-- ░░ SNAKE ANIMATION — requires GitHub Actions workflow (see setup below) ░░ -->
 <div align="center">
