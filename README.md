@@ -4,12 +4,12 @@
      ============================================================ -->
 
 <!-- ░░ LIQUID WAVE HEADER ░░ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,16,11&height=220&section=header&text=Shivam%20Soni&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Full-Stack%20Engineer%20%7C%20Commerce%20%26%20AI%20Platform%20Builder&descAlignY=58&descFontSize=18&descColor=DDD6FE"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,16,11&height=220&section=header&text=Shivam%20Soni&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Full-Stack%20Engineer%20%E2%80%A2%20Commerce%20and%20AI%20Platform%20Builder&descAlignY=58&descFontSize=18&descColor=DDD6FE"/>
 
 <!-- ░░ ANIMATED TYPING ░░ -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=900&color=9B88FF&center=true&vCenter=true&width=680&lines=🚀+Building+the+future+of+commerce;💡+Royal+Cyber+CSA+—+Customer+Service+Accelerator;🔗+Multi-tenant+Commerce+Data+Orchestration;🤖+AI-powered+Enterprise+Tools;⚡+TypeScript+%7C+Next.js+14+%7C+Node.js" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=900&color=9B88FF&center=true&vCenter=true&width=680&lines=Building+the+future+of+commerce;Royal+Cyber+CSA+%E2%80%94+Customer+Service+Accelerator;Multi-tenant+Commerce+Data+Orchestration;AI-powered+Enterprise+Tools;TypeScript+%7C+Next.js+14+%7C+Node.js" alt="Typing SVG" />
   </a>
 </p>
 
@@ -110,7 +110,9 @@ const shivam: Developer = {
 <!-- ░░ ACTIVITY GRAPH ░░ -->
 <h2 align="center">📈 Contribution Activity</h2>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=sonishivam1&bg_color=0D1117&color=9B88FF&line=6D4CFF&point=EC4899&area=true&area_color=6D4CFF&hide_border=false&border_color=6D4CFF&radius=8" alt="Activity Graph"/>
+<p align="center">
+  <img width="100%" src="https://ghchart.rshah.org/6D4CFF/sonishivam1" alt="Contribution chart"/>
+</p>
 
 <br/>
 
