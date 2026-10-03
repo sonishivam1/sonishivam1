@@ -29,8 +29,13 @@
 
 ---
 
-<!-- ░░ ABOUT ME — CODE CARD ░░ -->
-<h2 align="center">🧑‍💻 About Me</h2>
+<!-- ░░ ABOUT ME — LIQUID GLASS CARD (generated SVG in /assets) ░░ -->
+<p align="center">
+  <img width="100%" src="./assets/about-me.svg" alt="About Shivam Soni: Full-Stack Engineer at Royal Cyber, Prayagraj, India. Building Royal Cyber CSA, Commerce Orchestrator and AI tooling."/>
+</p>
+
+<details>
+<summary><b>View as code</b></summary>
 
 ```typescript
 const shivam: Developer = {
@@ -57,6 +62,8 @@ const shivam: Developer = {
   contact:      "linkedin.com/in/shivam-sonii",
 };
 ```
+
+</details>
 
 <br/>
 
